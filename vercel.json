@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/ask-gpt.ts", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/ask-gpt", "dest": "api/ask-gpt.ts" }]
+}
