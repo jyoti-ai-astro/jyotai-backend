@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@vercel/node": "^5.3.6",
+    "@vercel/node": "^2.3.0",
     "openai": "^4.21.1"
   },
   "devDependencies": {
