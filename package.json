@@ -4,6 +4,9 @@
   "type": "module",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@vercel/node": "^5.3.6",
     "openai": "^4.21.1"
