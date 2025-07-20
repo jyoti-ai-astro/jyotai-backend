@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vercel/node": "^5.3.6",
+    "express": "^5.1.0",
     "openai": "^4.21.1"
   },
   "devDependencies": {
