@@ -5,12 +5,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-  "start": "node src/index.cjs"
-},
+    "start": "node src/index.cjs"
+  },
   "dependencies": {
     "@vercel/node": "^5.3.6",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
-    "openai": "^4.21.1"
+    "openai": "^4.104.0"
   },
   "devDependencies": {
     "@types/node": "^20.6.0",
