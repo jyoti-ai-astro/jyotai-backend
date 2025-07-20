@@ -64,7 +64,9 @@ Place: ${birth_details.place}\n`;
       temperature: 0.7,
     });
 
-    const raw = response.choices[0].message.content;
+    // CLEAN FIX — Strip ```json code wrapper from GPT output
+    let raw = response.choices[0].message.content;
+    raw = raw.replace(/```json\n?/, "").replace(/```/, "").trim();
 
     try {
       const json = JSON.parse(raw);
